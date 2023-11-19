@@ -95,3 +95,21 @@ table {
 .main-cards-container > p {
     font-style: italic;
 }
+
+.card {
+    display: grid;
+    grid-template-columns: 300px 120px 80px;
+    grid-template-rows: 32px 24px;
+    border: 2px solid rgb(203 213 225);
+    text-align: left;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 4px 8px;
+}
+
+.main-cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
